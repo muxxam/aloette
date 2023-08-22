@@ -38,6 +38,16 @@ body, html {
     text-transform: uppercase;
 }
 
+.break-on-desktop {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .break-on-desktop {
+        display: inline;
+    }
+}
+
 .email {
     font-size: 1.2rem;
     font-weight: 400;
