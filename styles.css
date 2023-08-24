@@ -24,10 +24,10 @@ body, html {
 }
 
 .line {
-    width: 80%;
+    width: 30%;
     height: 0.5px;
     background-color: #e0e0e0;
-    margin: 10px 0;
+    margin: 40px 0;
 }
 
 .slogan {
