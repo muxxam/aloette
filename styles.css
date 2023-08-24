@@ -24,14 +24,14 @@ body, html {
 }
 
 .line {
-    width: 30%;
+    width: 15%;
     height: 0.5px;
     background-color: #e0e0e0;
     margin: 40px 0;
 }
 
 .slogan {
-    font-size: 2.5rem; 
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
     font-weight: 700;
     text-align: center;
     margin: 20px 0;
