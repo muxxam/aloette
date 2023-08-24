@@ -31,7 +31,7 @@ body, html {
 }
 
 .slogan {
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-size: clamp(1.5rem, 3.8vw, 2.5rem);
     font-weight: 700;
     text-align: center;
     margin: 20px 0;
@@ -43,8 +43,8 @@ body, html {
 }
 
 @media (max-width: 768px) {
-    .break-on-desktop {
-        display: inline;
+    .slogan {
+        font-size: 2rem; 
     }
 }
 
